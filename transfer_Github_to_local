@@ -14,4 +14,7 @@ git pull remotename branchname
 
 
 Download a single file to local machine:
-wget https://github.com/FilePATH
+
+Right click on the "raw" button and save it as a file
+or
+Click the "raw" button and "wget URL"

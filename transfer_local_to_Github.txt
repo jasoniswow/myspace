@@ -1,0 +1,15 @@
+Adding an existing project to GitHub
+
+0. Create a repository in Github WITHOUT a README file
+
+1. Go to the directory you want to upload: git init
+
+2. Add all files: git add .
+
+3. Commit the staged files to local repository:  git commit -m "First commit"
+
+4. Add the URL for the remote repository that will be pushed: git remote add origin <remote_URL>
+
+5. Verify the remote URL: git remote -v
+
+6. Push the changes from local repository to remote repository (master branch) in Github: git push origin master

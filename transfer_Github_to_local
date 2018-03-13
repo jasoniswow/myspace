@@ -1,0 +1,17 @@
+Transfer files/directories from Github remote repository to local:
+
+1. Grab a complete directory:
+git clone https://username:password@github.com/username/repository.git
+
+2. Retrieve new files without merging into your local branch:
+git fetch remotename
+
+3. Merge changes into your local branch:
+git merge remotename/branchname
+
+4. Complete fetch and merge at the same time:
+git pull remotename branchname
+
+
+Download a single file to local machine:
+wget https://github.com/FilePATH

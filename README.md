@@ -1,4 +1,7 @@
 # myspace
 
 Hi Humans,
-Jason here, nice to meet you virtually in Github.
+
+This is a place for various things.
+
+Jason

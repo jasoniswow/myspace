@@ -65,7 +65,7 @@ anaconda(){
   export MKL_NUM_THREADS=1
   export NUMEXPR_NUM_THREADS=1
 }
-anaconda
+#anaconda
 
 # miscellaneous
 alias python=python3

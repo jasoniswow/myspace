@@ -13,3 +13,16 @@ Adding an existing project to GitHub
 5. Verify the remote URL: git remote -v
 
 6. Push the changes from local repository to remote repository (master branch) in Github: git push origin master
+
+
+
+
+Make changes in local and update Github
+
+0. git status or git diff
+
+1. git rm $FILE or git add $FILE
+
+2. git commit -m "some message"
+
+3. git push origin master

@@ -1,0 +1,7 @@
+# count file/directory number:
+
+ls -l <directory> | wc -l    # directory number, this cincludes dotfile
+
+find <directory> -mindepth 1 -maxdepth 1 -type f -name '*.log'| wc -l    # use -type d to find direcotries
+
+

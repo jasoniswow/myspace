@@ -13,6 +13,15 @@ git merge remotename/branchname
 git pull remotename branchname
 
 
+Checkout new stuff from Github to local:
+git pull origin master
+
+
+Ignore all local changes and sync with Github (dangerous!)
+git fetch --all
+git reset --hard origin/master
+
+
 Download a single file to local machine:
 
 Right click on the "raw" button and save it as a file

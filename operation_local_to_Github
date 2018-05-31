@@ -21,7 +21,7 @@ Make changes in local and update Github
 
 0. git status or git diff
 
-1. git rm $FILE or git add $FILE
+1. git rm $FILE or git add $FILE (use "-r" if it's a directory)
 
 2. git commit -m "some message"
 

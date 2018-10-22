@@ -10,18 +10,7 @@ git fetch remotename
 git merge remotename/branchname
 
 4. Complete fetch and merge at the same time:
-git pull remotename branchname
-
-
-
-Checkout new stuff from Github to local:
-git pull origin master
-
-
-
-Ignore all local changes and sync with Github (dangerous!)
-git fetch --all
-git reset --hard origin/master
+git pull remotename branchname (git pull origin master)
 
 
 
@@ -29,3 +18,9 @@ Download a single file to local machine:
 Right click on the "raw" button and save it as a file
 or
 Click the "raw" button and "wget URL"
+
+
+
+Ignore all local changes and sync with Github (dangerous!)
+git fetch --all
+git reset --hard origin/master

@@ -103,6 +103,8 @@ fi
 
 
 # aliases
+alias sshp520='ssh -Y zhixiang@192.168.116.14'
+alias sshpcl5='ssh -Y zhixiang@10.10.16.64'
 alias sshpa='ssh -Y pa-pub.umd.edu'
 alias ssha1='ssh -Y augers1.phys.unm.edu -p 2013'
 alias ssha2='ssh -Y augers2.phys.unm.edu -p 22'

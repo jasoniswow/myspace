@@ -1,7 +1,6 @@
 # aliases
-alias sshp520='ssh -Y zhixiang@192.168.116.14'
-alias sshpcl5='ssh -Y zhixiang@10.10.16.64'
-alias tff='rsync -avP -e "ssh -p22"'
+#alias sshp520='ssh -Y zhixiang@192.168.116.14'
+#alias sshpcl5='ssh -Y zhixiang@10.10.16.64'
 
 alias sshpa='ssh -Y pa-pub.umd.edu'
 alias ssha1='ssh -Y augers1.phys.unm.edu -p 2013'
@@ -10,9 +9,15 @@ alias sshhawc='ssh -Y hawc@augers2.phys.unm.edu -p 22'
 alias sshjohn='ssh -Y johnm@augers2.phys.unm.edu -p 22'
 alias sshfsa1='sshfs -p 2013 augers1.phys.unm.edu:/home/zhixiang augers1'
 alias sshfsa2='sshfs -p 22 augers2.phys.unm.edu:/home/zhixiang augers2'
+
+alias sshcpu1='ssh -Y 172.16.164.52'
+alias sshcpu2='ssh -Y 172.16.165.95'
+alias sshgpu='ssh -Y 172.16.165.94'
+
 alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
+
 
 # environment via anaconda
 anaconda(){
@@ -27,6 +32,7 @@ anaconda
 
 # miscellaneous
 alias python=python3
+alias tff='rsync -avP -e "ssh -p22"'
 alias tf='source ~/tensorflow/bin/activate'
 export TF_CPP_MIN_LOG_LEVEL=2 # silence the tensorflow CPU warning
 

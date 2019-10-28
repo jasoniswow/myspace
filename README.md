@@ -8,6 +8,6 @@ To setup environment, try to install:
 2. configuration of bash/zsh, ssh, vim/gvim, git,
 3. other useful apps: latex, wps, vlc etc.
 4. setup Nvidia DL evvironment:
-  Install CUDA by following instructions: https://developer.nvidia.com/cuda-downloads
-  install Nvidia cnDNN
+Install CUDA by following instructions: https://developer.nvidia.com/cuda-downloads
+Install Nvidia cnDNN
   

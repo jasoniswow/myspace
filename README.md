@@ -18,4 +18,4 @@ echo ' ... '
 echo ' ... '
 echo ' ... '
 
-The files are used for theme condiguration of TeXstudio.
+The texstudio.ini files are used for theme condiguration of TeXstudio for Latex.

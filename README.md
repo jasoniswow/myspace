@@ -17,3 +17,5 @@ neofetch
 echo ' ... '
 echo ' ... '
 echo ' ... '
+
+The files are used for theme condiguration of TeXstudio.
